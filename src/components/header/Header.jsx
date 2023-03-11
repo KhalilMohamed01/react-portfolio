@@ -5,7 +5,8 @@ import ME from '../../assets/me.png'
 import HeaderSocial from './HeaderSocials'
 export const Header = () => {
   return (
-    <div className="container header_container">
+    <header>
+    <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>KHALIL Mohamed</h1>
         <h5 className="text-light">Fullstack Developer</h5>
@@ -16,5 +17,6 @@ export const Header = () => {
         </div>
         <a href="#contact" className='scroll_down'>Scroll Down</a>
     </div>
+    </header>
   )
 }
