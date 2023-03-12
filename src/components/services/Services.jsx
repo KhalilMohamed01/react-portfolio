@@ -2,6 +2,8 @@ import React from 'react'
 import './services.css'
 export const Services = () => {
   return (
-    <div>Services</div>
+    <section id="services">
+          <div>Services</div>
+    </section>
   )
 }
