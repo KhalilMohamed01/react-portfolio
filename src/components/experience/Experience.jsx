@@ -14,61 +14,83 @@ export const Experience = () => {
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill/>
+              <div>
               <h4>HTML</h4>
               <small class="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
+              <div>
               <h4>CSS</h4>
               <small class="text-light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
+              <div>
               <h4>JAVASCRIPT</h4>
               <small class="text-light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
+              <div>
               <h4>VUEJS</h4>
               <small class="text-light">Beginner</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
+              <div>
               <h4>REACTJS</h4>
               <small class="text-light">Beginner</small>
+              </div>
             </article>
           </div>
         </div>
-      </div>
+    
       <div className="experience__backend">
       <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill/>
-              <h4>HTML</h4>
+              <div>
+              <h4>Node JS</h4>
               <small class="text-light">Experienced</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
-              <h4>CSS</h4>
+              <div>
+              <h4>MongoDB</h4>
               <small class="text-light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
-              <h4>JAVASCRIPT</h4>
+              <div>
+              <h4>PHP</h4>
               <small class="text-light">Intermediate</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
-              <h4>VUEJS</h4>
+              <div>
+              <h4>MySQL</h4>
               <small class="text-light">Beginner</small>
+              </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill/>
-              <h4>REACTJS</h4>
+              <div>
+              <h4>Java</h4>
               <small class="text-light">Beginner</small>
+              </div>
             </article>
           </div>
+          
+</div>
       </div>
             </section>
   )
