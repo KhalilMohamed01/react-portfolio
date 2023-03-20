@@ -9,6 +9,7 @@
     padding:2.4rem 5rem;
     border-radius:2rem;
     border:1px solid transparent;
+    transition: var(--transition);
 }
 
 .experience__container > div:hover {
@@ -19,7 +20,7 @@
 
 .experience__container > div h3 {
     text-align: center;
-    margin-left: 2rem;
+    margin-bottom: 2rem;
     color: var(--color-primary);
 }
 
@@ -32,4 +33,35 @@
 .experience__details{
     display: flex;
     gap:1rem;
+}
+
+.experience__details-icon{
+    margin-top: 6px;
+    color:var(--color-primary);
+}
+
+/* ========== media queries (Medium devices) ======== */
+@media screen and (max-width: 1024px){
+    .experience__container{
+        grid-template-columns: 1fr;
+    }
+    .experience__container > div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .experience__content{
+        padding: 1rem;
+    }
+
+}
+/* ========== media queries (SMALL devices) ======== */
+@media screen and (max-width: 600px){
+    .experience__container{
+        gap:1rem;
+    }
+    .experience__container > div{
+        width: 100%;
+        padding: 2rem 1rem;
+    }
 }
